@@ -24,14 +24,17 @@ text-decoration: none;
  justify-content: center;
  align-items: center;
 }
-
+/* Added container for the whole content (centered and to the left inside)*/
+.big-container {
+ margin: 0 auto;
+ width: fit-content;
+}
 
 /* Different item blocks */
 
 .title-wrapper {
  display: inline-table;
  width: 100%;
-
 }
 .title-wrapper h2 {
  color: var(--main-color);

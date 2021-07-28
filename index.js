@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function toggleText(event) {
     let btn = event.target;
-    // console.log(btn);
     let addedText =
       event.target.previousElementSibling.querySelector(".hidden");
 
